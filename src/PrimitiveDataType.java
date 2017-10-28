@@ -28,7 +28,6 @@ public class PrimitiveDataType {
 		a = pi * r * r;
 		System.out.println("Double-- Area of circle is " + a);
 		
-		
 		//Char Type
 		char ch1, ch2;
 		ch1 = 65; // code for X
@@ -42,7 +41,7 @@ public class PrimitiveDataType {
 		System.out.println(b);
 		b = false;
 		System.out.println(b);
-
+		
 	}
 
 }
