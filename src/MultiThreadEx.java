@@ -2,7 +2,7 @@
 	/**
 	 * @author Moshiur Rahman
 	 * @Date 28-10-2017
-	 * @Topic Java Thread by extend Thread
+	 * @Topic Java MultiThread by extend Thread
 	 */
 public class MultiThreadEx {
 

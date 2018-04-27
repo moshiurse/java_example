@@ -1,4 +1,8 @@
-
+	/**
+	 * @author Moshiur Rahman
+	 * @Date 28-10-2017
+	 * @Topic Java MultiThread by Implement Runnable
+	 */
 public class MultiThreadImp {
 	
 	public static void main(String[] args) {
