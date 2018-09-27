@@ -1,22 +1,23 @@
+package com.learn.java.basic;
 
-	/**
-	 * @author Moshiur Rahman
-	 * @Date 28-10-2017
-	 * @Topic Java MultiThread by extend Thread
-	 */
+/**
+ * @author Moshiur Rahman
+ * @Date 28-10-2017
+ * @Topic Java MultiThread by extend Thread
+ */
 public class MultiThreadEx {
 
-	public static void main(String[] args) {
-		First first = new First();
-		Second second = new Second();
-		Third third = new Third();
-		
-		first.start();
-		second.start();
-		third.start();
+public static void main(String[] args) {
+    First first = new First();
+    Second second = new Second();
+    Third third = new Third();
 
-	}
-	
+    first.start();
+    second.start();
+    third.start();
+
+}
+
 
 }
 

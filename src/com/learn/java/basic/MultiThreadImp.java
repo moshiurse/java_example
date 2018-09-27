@@ -1,23 +1,25 @@
-	/**
-	 * @author Moshiur Rahman
-	 * @Date 28-10-2017
-	 * @Topic Java MultiThread by Implement Runnable
-	 */
+package com.learn.java.basic;
+
+/**
+ * @author Moshiur Rahman
+ * @Date 28-10-2017
+ * @Topic Java MultiThread by Implement Runnable
+ */
 public class MultiThreadImp {
-	
-	public static void main(String[] args) {
-		Four four = new Four();
-		Five five = new Five();
-		Six six = new Six();
-		
-		Thread t1 = new Thread(four);
-		Thread t2 = new Thread(five);
-		Thread t3 = new Thread(six);
-		
-		t1.start();
-		t2.start();
-		t3.start();
-	}
+
+public static void main(String[] args) {
+    Four four = new Four();
+    Five five = new Five();
+    Six six = new Six();
+
+    Thread t1 = new Thread(four);
+    Thread t2 = new Thread(five);
+    Thread t3 = new Thread(six);
+
+    t1.start();
+    t2.start();
+    t3.start();
+}
 
 }
 

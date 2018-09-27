@@ -1,4 +1,6 @@
-	/**
+package com.learn.java.basic;
+
+/**
 	 * @author Moshiur Rahman
 	 * @Date 14-10-2017
 	 * @Topic Java Primitive Data Type
