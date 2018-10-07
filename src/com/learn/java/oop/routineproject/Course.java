@@ -1,4 +1,4 @@
-package com.learn.java.oop;
+package com.learn.java.oop.routineproject;
 
 public class Course {
 	
@@ -33,14 +33,10 @@ public class Course {
 	public void assignTeacher(String tInit, String name){
 		System.out.println("Course Teacher : "+name+ " & Teacher Initial "+ tInit);
 	}
-		
-	
-	
+
 	@Override
 	public String toString() {
 		return "Course [cCode=" + cCode + ", cTeacher=" + cTeacher + "]";
 	}
-	
-	
 
 }

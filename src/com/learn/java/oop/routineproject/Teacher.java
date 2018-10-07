@@ -1,4 +1,4 @@
-package com.learn.java.oop;
+package com.learn.java.oop.routineproject;
 
 public class Teacher {
 	
@@ -34,18 +34,14 @@ public class Teacher {
 		this.tName = tName;
 	}
 
-
 	public String[] getOffday() {
 		return offday;
 	}
-
 
 	public void setOffday(String[] offday) {
 		this.offday = offday;
 	}
 	
-	
-
 
 	@Override
 	public String toString() {
